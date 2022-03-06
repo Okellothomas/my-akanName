@@ -41,6 +41,8 @@ body{
 }
 .col-6{
     border: 1px solid whitesmoke;
+    background-image: url('images/backg.png');
+
 }
 .col-12{
     border: 1px solid yellowgreen;
@@ -55,6 +57,29 @@ h4{
     margin-left: 12%;
     margin-right: 12%;
 }
+.allgender{
+    margin-left: 24%;
+    margin-right: 24%;
+}
+.imgfooter{
+    width: 40px;
+    height: 40px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    text-align: center;
+}
+#rowfooter{
+    text-align: center;
+}
+.footer{
+    background-color: rgb(83, 59, 59);
+}
+#para{
+    color: whitesmoke;
+}
 .btn{
+    text-align: center;
+}
+.row button{
     text-align: center;
 }

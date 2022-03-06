@@ -15,29 +15,29 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">my-Akan-Name</a> <img src="images/akan.png" id="imageone" alt="my-akan-name">
+        <a class="navbar-brand" href="https://github.com/Okellothomas/my-akanName">my-Akan-Name</a> <img src="images/akan.png" id="imageone" alt="my-akan-name">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">All gender</a>
+              <a class="nav-link active" aria-current="page" href="#ALLGENDER">All gender</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Male</a>
+              <a class="nav-link" href="#MALE">Male</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Female</a>
+              <a class="nav-link" href="#MALE">Female</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Selection
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">All Gender</a></li>
-                <li><a class="dropdown-item" href="#">Male</a></li>
-                <li><a class="dropdown-item" href="#">Female</a></li>
+                <li><a class="dropdown-item" href="#ALLGENDER">All Gender</a></li>
+                <li><a class="dropdown-item" href="#MALE">Male</a></li>
+                <li><a class="dropdown-item" href="#MALE">Female</a></li>
               </ul>
             </li>
           </ul>
@@ -92,7 +92,7 @@
 
     <!-- The form for both male and female -->
 
-    <div class="container">
+    <div class="container" id="MALE">
       <div class="row">
         <div class="col-6" style="background-image: url('images/backg.png');">
           <h4 class="jumbotron" style="color: aqua;">Male <img src="images/maleone.jpg" id = "imgmale" alt=""> </h4> 
@@ -100,7 +100,7 @@
           <form class="malefemale">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label" style="color: aliceblue;">Date of Birth:</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="DD/MM/YEAR">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="DD/MM/YEAR" required>
               <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             </div>
             <!-- <div class="mb-3">
@@ -121,7 +121,7 @@
           <form class="malefemale">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label" style="color: aliceblue;">Date of Birth:</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="DD/MM/YEAR">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="DD/MM/YEAR" required>
             </div>
             <!-- <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Password</label>
@@ -141,7 +141,7 @@
     <!-- End of both female and male -->
 
     <!-- Beginning of all gender -->
-    <div class="container">
+    <div class="container" id="ALLGENDER">
       <div class="row">
         <div class="col-12" style="background-image: url('images/backg.png');">
           <h4 class="jumbotron" style="color: aqua;">Any Gender <img src="images/both.jpg" id = "imgmale" alt=""> </h4> 
@@ -149,12 +149,12 @@
           <form class="allgender"> 
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label" style="color: aliceblue;">Date of Birth:</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="DD/MM/YEAR">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="DD/MM/YEAR" required>
               <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label" style="color: aliceblue;">Gender:</label>
-              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Male or Female">
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Male or Female" required>
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -175,9 +175,9 @@
     <div class="footer">
       <div class="row">
           <div class="col" id="rowfooter">
-            <a href=""><img src="images/female.png" class ="imgfooter" alt=""> </a>
-            <a href=""><img src="images/maleone.jpg" class ="imgfooter" alt=""></a>
-            <a href=""><img src="images/both.jpg" class="imgfooter" alt=""></a>
+            <a href="#MALE"><img src="images/female.png" class ="imgfooter" alt=""> </a>
+            <a href="#MALE"><img src="images/maleone.jpg" class ="imgfooter" alt=""></a>
+            <a href="#ALLGENDER"><img src="images/both.jpg" class="imgfooter" alt=""></a>
           </div>
       </div>
 

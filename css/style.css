@@ -93,3 +93,12 @@ h4{
     text-decoration: underline;
     text-emphasis-color: red;
 }
+.dropdown-item:hover{
+    background-color: aqua;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid red;
+    border-radius: 73%;
+    font-weight: bolder;
+    text-decoration: underline;
+}

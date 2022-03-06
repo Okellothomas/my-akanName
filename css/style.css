@@ -112,3 +112,23 @@ h4{
     text-decoration: underline;
     font-weight: bolder;
 }
+#birthday{
+    margin-top: 6px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid purple;
+    border-radius: 50%;
+    /* margin-right: 50%; */
+}
+.paragraph{
+    /* margin-top: 40px; */
+    margin-top: 6px;
+    text-align: center;
+    color: rgb(51, 123, 185);
+}
+#birthday:hover{
+    text-decoration-color: brown;
+    text-decoration: none;
+    border-radius: 34%;
+    border: 1px solid white;
+}

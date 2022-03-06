@@ -21,7 +21,7 @@ function getMale(){
        // alert("Your Akan name is Kwaku");
         let dateResult = document.getElementById("Mresult");
         dateResult.textContent = "Your Akan name is Kwaku";
-    } else if(male_D == 'thurday'){
+    } else if(male_D == 'thursday'){
         //alert("Your Akan name is Yaw");
         let dateResult = document.getElementById("Mresult");
         dateResult.textContent = "Your Akan name is Yaw";

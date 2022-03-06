@@ -28,7 +28,7 @@ function getAllGender(){
            // alert("Your Akan name is Kwaku");
             let dateResult = document.getElementById("allResults");
             dateResult.textContent = "Your Akan name is Kwaku";
-        } else if(all_Data == 'thurday'){
+        } else if(all_Data == 'thursday'){
             //alert("Your Akan name is Yaw");
             let dateResult = document.getElementById("allResults");
             dateResult.textContent = "Your Akan name is Yaw";
@@ -59,7 +59,7 @@ function getAllGender(){
             alert("Your Akan name is Abenaa");
         } else if(all_Dat == 'wednesday'){
             alert("Your Akan name is Akua");
-        } else if(all_Dat == 'thurday'){
+        } else if(all_Dat == 'thursday'){
             alert("Your Akan name is Yaa");
         }else if(all_Dat == 'friday'){
             alert("Your Akan name is Afua");

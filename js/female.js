@@ -12,7 +12,7 @@ function getFemale(){
         alert("Your Akan name is Abenaa");
     } else if(male_D == 'wednesday'){
         alert("Your Akan name is Akua");
-    } else if(male_D == 'thurday'){
+    } else if(male_D == 'thursday'){
         alert("Your Akan name is Yaa");
     }else if(male_D == 'friday'){
         alert("Your Akan name is Afua");

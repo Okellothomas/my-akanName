@@ -51,3 +51,10 @@ body{
 h4{
     text-decoration: underline;
 }
+.malefemale{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.btn{
+    text-align: center;
+}

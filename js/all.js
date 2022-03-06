@@ -2,30 +2,44 @@
 
 
 function getAllGender(){
-    let all_d = document.getElementById("femaleDetails").value;
+    let all_d = document.getElementById("allGender").value;
 
     let all_D = all_d.toLowerCase();
 
     if(all_D == 'male'){
 
-        let all_data = document.getElementById("femaleDetails").value;
+        let all_data = document.getElementById("dateGender").value;
 
         let all_Data = all_data.toLowerCase();
 
         if (all_Data == 'sunday'){
-            alert("Your Akan name is Akosua");
+            // alert("Your Akan name is Kwasi")
+            let dateResult = document.getElementById("allResults");
+            dateResult.innerHTML = "Your Akan name is Kwasi";
         } else if(all_Data == 'monday'){
-            alert("Your Akan name is Adwoa");
+            //alert("Your Akan name is Kwadwo");
+            let dateResult = document.getElementById("allResults");
+            dateResult.textContent = "Your Akan name is Kwadwo";
         } else if(all_Data == 'tuesday'){
-            alert("Your Akan name is Abenaa");
+            //alert("Your Akan name is Kwebena");
+            let dateResult = document.getElementById("allResults");
+            dateResult.textContent = "Your Akan name is Kwebena";
         } else if(all_Data == 'wednesday'){
-            alert("Your Akan name is Akua");
+           // alert("Your Akan name is Kwaku");
+            let dateResult = document.getElementById("allResults");
+            dateResult.textContent = "Your Akan name is Kwaku";
         } else if(all_Data == 'thurday'){
-            alert("Your Akan name is Yaa");
+            //alert("Your Akan name is Yaw");
+            let dateResult = document.getElementById("allResults");
+            dateResult.textContent = "Your Akan name is Yaw";
         }else if(all_Data == 'friday'){
-            alert("Your Akan name is Afua");
+            //alert("Your Akan name is Kofi");
+            let dateResult = document.getElementById("allResults");
+            dateResult.textContent = "Your Akan name is Kofi";
         }else if(all_Data == 'saturday'){
-            alert("Your Akan name is Ama");
+            //alert("Your Akan name is Kwame");
+            let dateResult = document.getElementById("allResults");
+            dateResult.textContent = "Your Akan name is Kwame";
         }else{
             alert("Invalid Input");
         }
@@ -33,7 +47,7 @@ function getAllGender(){
     } else if(all_D == 'female'){
 
 
-        let all_dat = document.getElementById("femaleDetails").value;
+        let all_dat = document.getElementById("dateGender").value;
 
         let all_Dat = all_dat.toLowerCase();
 

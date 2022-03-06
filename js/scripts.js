@@ -6,7 +6,9 @@ function getMale(){
     let male_D = male_d.toLowerCase();
 
     if (male_D == 'sunday'){
-        alert("Your Akan name is Kwasi");
+        // alert("Your Akan name is Kwasi")
+        let dateResult = document.getElementById("Mresult");
+        dateResult.textContent = "Your Akan name is Kwasi";
     } else if(male_D == 'monday'){
         alert("Your Akan name is Kwadwo");
     } else if(male_D == 'tuesday'){
@@ -23,9 +25,9 @@ function getMale(){
         alert("Invalid Input");
     }
 
+    //alert(male_D);
 
-    alert(male_D);
-
+    return male_D;
 
 }
-getMale();
+//getMale();

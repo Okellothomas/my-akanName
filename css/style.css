@@ -83,3 +83,13 @@ h4{
 .row button{
     text-align: center;
 }
+.nav-item:hover{
+    background-color: rgb(162, 152, 219);
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid greenyellow;
+    border-radius: 79%;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-emphasis-color: red;
+}

@@ -45,3 +45,9 @@ body{
 .col-12{
     border: 1px solid yellowgreen;
 }
+.jumbotron{
+    text-align: center;
+}
+h4{
+    text-decoration: underline;
+}

@@ -23,4 +23,4 @@ function getFemale(){
     }
 
 }
-    alert(male_D);
+alert(male_D);

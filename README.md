@@ -26,5 +26,5 @@
 ### Copyright (c) [2022] [Okello Thomas]
 
 # Link
-### Access the my-porfolio here [my-porfolio](https://okellothomas.github.io/my-akanName/)
+### Access the my-Akan_Name here [my-Akan-Name](https://okellothomas.github.io/my-akanName/)
 

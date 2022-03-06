@@ -102,3 +102,13 @@ h4{
     font-weight: bolder;
     text-decoration: underline;
 }
+.navbar-brand:hover{
+    border-radius: 67%;
+    background-color: rgb(79, 91, 114);
+    border: 2px solid whitesmoke;
+    text-emphasis-color: rgb(255, 0, 170);
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: bolder;
+}

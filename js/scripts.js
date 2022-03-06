@@ -8,8 +8,8 @@ function getUserDate(){
 function getNumber(){
     var dd = parseInt(getdate.substr(0, 1));
     var mm = parseInt(getdate.substr(2, 4));
-    var cc = parseInt(getdate.substr(5, 7));
-    var yy = parseInt(getdate.substr(8, 9));
+    var cc = parseInt(getdate.substr(5, 6));
+    var yy = parseInt(getdate.substr(7, 8));
 
     if(dd <= 0 || dd > 31 && mm <= 0 || mm > 12){
         alert("Invalid date or month");

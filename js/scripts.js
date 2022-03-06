@@ -1,38 +1,31 @@
-// obtain the date from the form html.
+// get data.
 
-function getUserDate(){
-    var getdate = document.getElementById("getUserDate").value;
-    return getdate;
-}
+function getMale(){
+    let male_d = document.getElementById("maleDetails").value;
 
-function getNumber(){
-    var dd = parseInt(getdate.substr(0, 1));
-    var mm = parseInt(getdate.substr(2, 4));
-    var cc = parseInt(getdate.substr(5, 6));
-    var yy = parseInt(getdate.substr(7, 8));
+    let male_D = male_d.toLowerCase();
 
-    if(dd <= 0 || dd > 31 && mm <= 0 || mm > 12){
-        alert("Invalid date or month");
+    if (male_D == 'sunday'){
+        alert("Your Akan name is Kwasi");
+    } else if(male_D == 'monday'){
+        alert("Your Akan name is Kwadwo");
+    } else if(male_D == 'tuesday'){
+        alert("Your Akan name is Kwebena");
+    } else if(male_D == 'wednesday'){
+        alert("Your Akan name is Kwaku");
+    } else if(male_D == 'thurday'){
+        alert("Your Akan name is Yaw");
+    }else if(male_D == 'friday'){
+        alert("Your Akan name is Kofi");
+    }else if(male_D == 'saturday'){
+        alert("Your Akan name is Kwame");
     }else{
-        var dayOfWeek= ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
-
-        if(dayOfWeek == 0){
-            alert("Your Akan name is Kwasi");
-        } else if(dayOfWeek == 1){
-            alert("Your Akan name is Kwadwo");
-        }else if (dayOfWeek == 2){
-            alert("Your Akan name is Kwebena");
-        }else if(dayOfWeek == 3){
-            alert("Your Akan name is Kwaku");
-        }else if(dayOfWeek == 4){
-            alert("Your Akan name is Yaw");
-        }else if(dayOfWeek == 5){
-            alert("Your Akan name is Kofi");
-        } else if(dayOfWeek == 6){
-            alert("Your Akan name is Kwame");
-        }else{
-            alert("Do not include / or . or any special character in your input");
-        }
+        alert("Invalid Input");
     }
 
+
+    alert(male_D);
+
+
 }
+getMale();

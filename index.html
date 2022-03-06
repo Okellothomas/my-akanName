@@ -99,19 +99,19 @@
           <!-- The male form -->
           <form class="malefemale">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label" style="color: aliceblue;">Date of Birth:</label>
-              <input type="text" class="form-control" id="getUserDate" aria-describedby="emailHelp" placeholder="DD/MM/YEAR" required>
+              <label class="form-label" style="color: aliceblue;">Date of Birth:</label>
+              <input type="text" class="form-control" id="maleDetails" placeholder="Day of Birth" required>
               <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             </div>
             <!-- <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Password</label>
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div> -->
-            <div class="mb-3 form-check">
+            <!-- <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1" style="color: aliceblue;">Check me out</label>
-            </div>
-            <button type="submit" onclick="getNumber()" class="btn btn-primary">Submit</button>
+              <label class="form-check-label" for="exampleCheck1" style="color: aliceblue;" aria-disabled="true">Check me out</label>
+            </div> -->
+            <button type="submit" onclick="getMale()" class="btn btn-primary">Submit</button>
           </form>
           <!-- End of male form -->
         </div>
@@ -121,7 +121,7 @@
           <form class="malefemale">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label" style="color: aliceblue;">Date of Birth:</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="DD/MM/YEAR" required>
+              <input type="text" class="form-control" id="femaleDetails" aria-describedby="emailHelp" placeholder="DD/MM/YEAR" required>
             </div>
             <!-- <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Password</label>
@@ -131,7 +131,7 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1" style="color: aliceblue;">Check me out</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" onclick="getFemaleDetails()">Submit</button>
           </form>
           <!-- End of female form -->
         </div>
@@ -149,11 +149,11 @@
           <form class="allgender"> 
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label" style="color: aliceblue;">Date of Birth:</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="DD/MM/YEAR" required>
+              <input type="text" class="form-control" id="userDetails" aria-describedby="emailHelp" placeholder="DD/MM/YEAR" required>
               <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label" style="color: aliceblue;">Gender:</label>
+              <label for="exampleInputPassword1" class="form-label" id="getUserDate" style="color: aliceblue;">Gender:</label>
               <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Male or Female" required>
             </div>
             <div class="mb-3 form-check">
@@ -192,5 +192,6 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/female.js"></script>
   </body>
 </html>

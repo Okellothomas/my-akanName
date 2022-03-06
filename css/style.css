@@ -1,0 +1,29 @@
+.navbar-nav{
+    margin-left: 50%;
+}
+
+body{
+    background-color: rgb(149, 153, 145);
+    margin-left: 11%;
+    margin-right: 11%;
+}
+#imageone{
+    margin-top: 8px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-style: oblique;
+    color: rgb(12, 2, 4);
+}
+.navbar{
+    background-color: rgb(255, 0, 140);
+    border-radius: 2%;
+}
+.d-block{
+    
+}

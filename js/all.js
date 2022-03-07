@@ -72,5 +72,3 @@ function getAllGender(){
         alert("Invalid Input");
     }
 }
-
-//alert(male_D);

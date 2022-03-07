@@ -132,4 +132,16 @@ h4{
     border-radius: 34%;
     border: 1px solid white;
 }
-#birth:ho
+#birth:hover{
+    color: wheat;
+}
+.sp{
+    border: 1px solid wheat;
+    /*background-color: aqua; */
+    border-radius: 40%;
+    text-decoration: none;
+}
+.sp:hover{
+    color: red;
+    background-color: burlywood;
+}
